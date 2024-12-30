@@ -9,13 +9,15 @@
 /*   Solved: 2024/12/30 23:04:48 by cjs5241       ###          ###   ##.kr    */
 /*                                                                            */
 /* ************************************************************************** */
-#include <bits/stdc++.h>
+#include <iostream>
+ 
 using namespace std;
-
-int main() {
+int main(int argc, char const *argv[]) {
+ 
     double a, b;
     cin >> a >> b;
-    cout.precision(10);
+ 
+    cout.precision(12);
     cout << fixed;
     cout << a / b;
     return 0;
