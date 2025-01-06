@@ -1,23 +1,19 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                      :::    :::    :::     */
-/*   Problem Number: 9498                              :+:    :+:      :+:    */
+/*   Problem Number: 2475                              :+:    :+:      :+:    */
 /*                                                    +:+    +:+        +:+   */
 /*   By: cjs5241 <boj.kr/u/cjs5241>                  +#+    +#+          +#+  */
 /*                                                  +#+      +#+        +#+   */
-/*   https://boj.kr/9498                           #+#        #+#      #+#    */
-/*   Solved: 2025/01/01 18:58:34 by cjs5241       ###          ###   ##.kr    */
+/*   https://boj.kr/2475                           #+#        #+#      #+#    */
+/*   Solved: 2025/01/05 23:14:57 by cjs5241       ###          ###   ##.kr    */
 /*                                                                            */
 /* ************************************************************************** */
 #include <bits/stdc++.h>
 using namespace std;
 int main(){
-    int score;
-    cin >> score;
-    if(score >= 90) cout << 'A' << '\n';
-    else if(score >= 80) cout << 'B' << '\n';
-    else if(score >= 70) cout << 'C' << '\n';
-    else if(score >= 60) cout << 'D' << '\n';
-    else cout << 'F' << '\n';
+    int a, b, c, d, e;
+    cin >> a >> b >> c >> d >> e;
+    cout << (a * a + b * b + c * c + d * d + e * e) % 10 << '\n';
     return 0;
-}
+}   
